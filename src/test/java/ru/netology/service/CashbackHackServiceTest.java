@@ -41,7 +41,7 @@ public class CashbackHackServiceTest {
     @Test
     public void showEqualBoundary () {
         int amount = 1000;
-        int expected = 1000;
+        int expected = 0;
 
         int actual = cashbackHackService.remain(amount);
 
